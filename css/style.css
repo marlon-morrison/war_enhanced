@@ -60,10 +60,19 @@ main h3 {
     color: #000501;
     padding: 12px;
     text-align: center;
+    font-size: 50px;
 }
 main h4 {
     background-color: #73AB84;
     padding: 9px;
+    font-size: 25px;
+}
+main p {
+    font-size: 19px;
+    text-transform: capitalize;
+}
+main img {
+    margin-left: 30%;
 }
 #board {
     background-color: #79C7C5;
@@ -76,8 +85,12 @@ main h4 {
 #button {
     position: absolute;
     width: 20%;
-    bottom: -150px;
-    right: 356px;
+    bottom: -189px;
+    border-radius: 30%;
+    right: 355px;
+    background: #99D19C;
+    color: #000501;
+    text-transform: capitalize;
 }
 footer {
     border:2px solid #110c2c;
